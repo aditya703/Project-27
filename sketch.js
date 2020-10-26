@@ -55,7 +55,7 @@ function keyPressed(){
 		Matter.Body.setStatic(bob3.body, false);
 		Matter.Body.setStatic(bob2.body, false);
 		Matter.Body.setStatic(bob1.body, false);
-		Matter.Body.applyForce(bob1.body, bob1.body.position,{x:-50, y:0});
+		Matter.Body.applyForce(bob5.body, bob5.body.position,{x:-50, y:50});
 	}
 }
 
